@@ -1,0 +1,62 @@
+@media screen and (max-width: 767px) {
+    .main-div {
+        display: flex;
+        flex: 1.5;
+        gap: 0.625rem;
+        background-color: white;
+        height: 9.625rem;
+        width: 30.875rem;
+        padding-left: 1.15rem;
+        padding-right: 2rem;
+        position: relative;
+        top: 10.5rem;
+        left: 50%; /* Center horizontally */
+        transform: translateX(-50%); /* Center horizontally */
+        border-radius: 0.25rem;
+    }
+    
+    .head-para {
+        display: absolute;
+        top: 10px;
+        left: 50%; /* Center horizontally */
+        transform: translateX(-50%); /* Center horizontally */
+        font-size: 1.5rem;
+        color: white;
+        text-align: center;
+    }
+
+    .dec-int-para {
+        margin-bottom: 20px;
+    }
+}
+
+
+@media screen and (max-width: 479px){
+    .main-div {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        height: 18.75rem;
+        width: 13.875rem;
+        padding-left: 1.15rem;
+        padding-right: 3rem;
+        position: relative;
+        top: 6.875rem;
+        left: 50%; /* Center horizontally */
+        transform: translateX(-50%); /* Center horizontally */
+        border-radius: 0.25rem;
+    }
+    .head-para {
+        display: absolute;
+        top: 0.625rem;
+        left: 50%; /* Center horizontally */
+        transform: translateX(-50%); /* Center horizontally */
+        font-size: 1.5rem;
+        color: white;
+        text-align: center;
+    }
+
+    .dec-int-para {
+        margin-bottom: 1.25;
+    }
+}
